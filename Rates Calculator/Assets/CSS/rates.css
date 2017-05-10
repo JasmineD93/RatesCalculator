@@ -1,0 +1,68 @@
+
+#container1{
+	font-family: 'Roboto', sans-serif;
+	width: 60%;
+	margin: 100px 25px 100px 25px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	background: rgba(246, 246, 246, 0.1);
+	float: left;
+	text-align: center;
+
+}
+
+#container2{
+	font-family: 'Roboto', sans-serif;
+	width: 30%;
+	margin: 100px 25px 100px 25px;
+	padding-right: 40px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	background: rgba(246, 246, 246, 0.1);
+	float: left;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: auto;
+	padding-right: auto;
+	padding-left: auto;
+
+}
+
+tr {
+	background: #f6f6f6;
+	height: 40px;
+	line-height: 40px;
+}
+
+tr:nth-child(2n){
+	background: #eff1f4;
+}
+
+input {
+	font-size: 18px;
+	background: #f6f6f6;
+	width: 70%;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	
+}
+
+
+#tableHeader, #table2Header {
+	background-color: #10adfa;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+#tableRate {
+	text-align: center;
+	width: 100%;
+	border: 0.25px;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url("gplaypattern.png");
+}
+

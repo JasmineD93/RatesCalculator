@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Expert Rates</title>
+	<!-- Linking jquery library -->
+	<script type="text/javascript" src="assets/js/lib/jquery-3.2.1.min.js"></script>
+	<!-- Linking CSS file -->
+	<link rel="stylesheet" type="text/css" href="assets/css/rates.css">
+	<!-- CDN link to Font Awesome -->
+	<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+	<!-- Link to google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	
+</head>
+<body>
+
+<div id="container1">
+	<div id="title"><h1>Rate Information</h1></div>
+	<table id="tableRate">
+		<tr id="tableHeader">
+			<th>Expert Rate Name</th>
+			<th>Expert Rate Amount</th>
+			<th>IMS Rate</th>
+			<th>Markup</th>
+			<th>Add</th>
+			<th id="total">Rate Total</th>
+		</tr>
+		<tr>
+			<td>
+				<input type="text" name="expertRateName" placeholder="Add New Rate Name">
+			</td>
+			<td >
+				<label for="expertRateAmount">$</label>
+				<input type="number" name="expertRateAmount" placeholder="Enter Rate Amount">
+			</td>
+			<td>
+				<label for="rate">$</label>
+				<input type="number" name="rate" placeholder="Enter IMS Rate">
+			</td>
+			<td>
+				<label for="markup">$</label>
+				<input type="number" name="markup" placeholder="Enter markup">
+			</td>
+			<td>
+				<i id="billing" class="fa fa-plus-circle fa-lg" aria-hidden="true"></i>
+			</td>
+		</tr>
+	</table>	
+</div>
+
+<div id="container2">
+	<div id="title"><h1>Rate Calculator</h1></div>
+	<table id="tableCal">
+		<tr id="table2Header">
+			<th>Rate Type</th>
+			<th>Hours</th>
+			<th></th>
+			<th>Total</th>
+		</tr>
+		<tr>
+			<td>
+				<select>
+					<option value="250">Travel</option>
+					<option value="rateType">Research</option>
+					<option value="rateType">Court</option>
+				</select>
+			</td>
+			<td>
+				<input type="number" name="hours" placeholder="Enter Hours">
+			</td>
+			<td>
+				<i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+			</td>
+
+		</tr>
+	</table>
+	
+</div>
+
+
+<script type="text/javascript" src="assets/js/rates.js"></script>
+</body>
+</html>
+
+
+
